@@ -1,0 +1,10 @@
+.header {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: sticky;
+}
