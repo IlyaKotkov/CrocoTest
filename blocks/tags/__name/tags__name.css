@@ -1,0 +1,11 @@
+.tags__name {
+    margin: 0;
+    padding: 0;
+    margin-right: 16px;
+    padding: 8px;
+    font-weight: 700;
+    font-family: "Roboto Slab", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}

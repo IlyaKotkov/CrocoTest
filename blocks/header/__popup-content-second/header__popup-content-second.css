@@ -1,0 +1,8 @@
+.header__popup-content-second{
+    display:none;
+    position: absolute;
+  }
+
+ .header__navigation-element-dropDownMenuSecond:hover .header__popup-content-second{
+    display: block;
+}

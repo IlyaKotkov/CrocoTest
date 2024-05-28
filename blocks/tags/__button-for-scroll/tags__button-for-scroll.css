@@ -1,0 +1,20 @@
+.tags__button-for-scroll {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.tags__button-for-scroll:hover {
+    background-color: #d2d2d2;
+}
+
+.tags__button-for-scroll:last-child {
+    margin-right: 0px;
+}

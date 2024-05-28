@@ -2,12 +2,16 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./pages/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./pages/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Idn times</title>
@@ -19,7 +23,7 @@
         <div class="header__container">
             <a class="header__logo" href="#"><img class="header__logo" src="./images/idntimes.png"></a>
             <div class="header__container-nav">
-                <a class="header__find" href="#"><img class="header__find" src="./images/search.png"></a>
+                <a class="header__find" href="#"></a>
                 <a class="header__link-authorize" href="#">Gabung di IDN Times</a>
                 <button class="header__choco-btn"><img class="header__choco" src="./images/chocobtn.png"
                         alt="icon-chocolate-button"></button>
@@ -37,18 +41,203 @@
                 <li class="header__navigation-element"><a class="header__navigation-element" href="#">HYPE</a></li>
                 <li class="header__navigation-element"><a class="header__navigation-element" href="#">KOREA</a></li>
                 <li class="header__navigation-element"><a class="header__navigation-element" href="#">LIFE</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">HEALT</a></li>
+                <li class="header__navigation-element"><a class="header__navigation-element" href="#">HEALTH</a></li>
                 <li class="header__navigation-element"><a class="header__navigation-element" href="#">COMMUNITY</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">REGIONAL
-                        &#9660;</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">LAINNYA
-                        &#9660;</a></li>
-            </ul>
+                <li class="header__navigation-element-dropDownMenuFirst">
+                    <a href="#" class="header__navigation-element">REGIONAL &#9660;</a>
+                    <div class="header__popup-content-first">
+                        <ul class="header__popup-list-first">
+                            <p class="header__popup-name">Regional</p>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">IDN TIMES</a<
+                                        /li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Jawa Barat</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Banten</a></li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Jawa Tengah</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Jogja</a> </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Jawa Timur</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Bali</a> </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Sumatera
+                                    Utara</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Sulawesi
+                                    Selatan</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Kalimantan
+                                    Timur</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Sumatera
+                                    Selatan</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Lampung</a></li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">NTB</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__navigation-element-dropDownMenuSecond">
+                    <a class="header__navigation-element" href="#">LAINNYA&#9660;</a>
+                    <div class="header__popup-content-second">
+                        <div class="header__popup-kategori">
+                            <p class="header__popup-name">Kategori</p>
+                            <ul class="header__popup-list-second">
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Tanya
+                                        Jawab</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">Automotive</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Science</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Men</a></li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Food</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Opinion</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Fiction</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Index</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Travel</a>
+                                </li>
+                        </div>
+                        <div class="header__popup-event">
+                            <p class="header__popup-name">Event</p>
+                            <ul class="header__popup-list-second">
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#ADA100CARA</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#COZIMMOVING</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#1000ASPIRASIINDONESIAMUDA</a></li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#AKUPEREMPUAN</a></li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">#KITAIDN</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#ANTIPUASAKUOTA</a> </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#LIPUTANKHUSUS</a> </li>
+                        </div>
+                        <p class="header__popup-suggest">DOWNLOAD IDN APP SEKARANG</p>
+                        <a class="header__popup-link-download" href="#"><img class="header__popup-link-download"
+                                src="./images/app-download.png"></a>
+                        <a class="header__popup-link-download" href="#"><img class="header__popup-link-download"
+                                src="./images/itunes-download.png"></a>
+                    </div>
+                </li>
         </div>
     </header>
 
     <main class="page__container">
 
+        <div class="tags">
+            <div class="tags__container">
+                <p class="tags__name">Topic Populer</p>
+                <a class="tags__link-button" href="#">Haji 2024</a>
+                <a class="tags__link-button" href="#">Thailand Open 2024</a>
+                <a class="tags__link-button" href="#">Quiz</a>
+            </div>
+            <div class="tags__buttons-container">
+                <button class="tags__button-for-scroll"><img class="tags__button-for-scroll"
+                        src="./images/arrowLeft.png" alt="arrow leftt"></button>
+                <button class="tags__button-for-scroll"><img class="tags__button-for-scroll"
+                        src="./images/arrowRight.png" alt="arrow right"></button>
+            </div>
+        </div>
+
+        <div class="breadCrumbs">
+            <ol class="breadCrumbs__list-container">
+                <li class="breadCrumbs__list-element"><a class="breadCrumbs__element">Home</a></li>
+                <li class="breadCrumbs__list-element">
+                    <p class="breadCrumbs__arrow">&rsaquo;</p>
+                </li>
+                <li class="breadCrumbs__list-element"><a class="breadCrumbs__element">Korea</a></li>
+                <li class="breadCrumbs__list-element">
+                    <p class="breadCrumbs__arrow">&rsaquo;</p>
+                </li>
+                <li class="breadCrumbs__list-element"><a class="breadCrumbs__element">Kpop</a></li>
+                <li class="breadCrumbs__list-element">
+                    <p class="breadCrumbs__arrow">&rsaquo;</p>
+                </li>
+                <li class="breadCrumbs__list-element"><a class="breadCrumbs__element" style=" color:#ed2126 ;">Pro
+                        Kontra MV NewJeans Cool With You, Ada Scene yang Terlalu Vulgar?</a></li>
+            </ol>
+            <p class="breadCrumbs__date" id="datetime"></p>
+        </div>
+
+        <div class="mainMenu">
+            <div class="mainMenu__main-container">
+                <div class="mainMenu__post-container">
+                    <h1 class="mainMenu__header-post">Pro Kontra MV NewJeans Cool With You, Ada Scene yang Terlalu
+                        Vulgar?</h1>
+                    <p class="mainMenu__post-description"> MV-nya artistik, tapi dianggap terlalu dewasa</p>
+                    <div class="mainMenu__image-container">
+                        <img class="mainMenu__post-image" alt="post image" src="./images/KoreanGirls.jpg">
+                        <span class="mainMenu__post-image-signature">NewJeans untuk MV Cool With You
+                            (instagram.com/min.hee.jin)</span>
+                    </div>
+                    <div class="mainMenu__writer-container">
+                        <img class="mainMenu__writer-avatar" alt="avatar" src="./images/avatar.png">
+                        <div class="mainMenu__writer-discription">
+                            <p class="mainMenu__writer-status">Writer</p>
+                            <p class="mainMenu__writer-name">Zahra Fadillah Haerunisa <img class="writer__label"
+                                    src="./images/label-user-writer.png" alt="label-writer"></p>
+                        </div>
+                    </div>
+                        <div class="mainMenu__share-link">
+                            <a class="mainMenu__share-button"><img class="icon-website" src="./images/F.png">Share to
+                                Facebook</a>
+                            <a class="mainMenu__share-button"><img class="icon-website"
+                                    src="./images/SocIcon-Twitter.png">Share to Twitter</a>
+                        </div>
+                        <div class="mainMenu__post-text-container">
+                            <p class="mainMenu__post-text">
+                                Follow IDN Times untuk mendapatkan informasi terkini. Klik untuk follow
+                                <a class="post-text__link" href="#">WhatsApp Channel</a>
+                                &
+                                <a class="post-text__link" href="#">Google News</a>
+                            </p>
+                            <p class="mainMenu__post-text">
+                                Melalui kanal YouTube HYBE LABELS,
+                                <a class="post-text__link-in-website" href="#">NewJeans</a>
+                                resmi merilis MV untuk lagu "Cool With You" pada Kamis (20/7/2023) tepat tengah malam
+                                waktu Korea Selatan. Lagu tersebut menjadi salah satu
+                                <em>title track</em>
+                                dalam
+                                <em>mini album</em>
+                                kedua mereka,
+                                <em>Get Up, </em>
+                                yang dirilis keesokan harinya.
+                            </p>
+                            <p class="mainMenu__post-text">
+                                Mirip dengan "Ditto", MV "Cool With You" dibagi ke dalam dua klip, yaitu
+                                <em>side A</em>
+                                dan
+                                <em>side B.</em>
+                                Keduanya menampilkan jalan cerita yang saling berkesinambungan.
+                            </p>
+                            <p class="mainMenu__post-text">
+                                Banyak orang, terutama para penggemar, memberi respons positif terhadap MV "Cool With
+                                You". Namun, tak sedikit juga dari mereka yang berpendapat bahwa beberapa
+                                <em>scene </em>
+                                di dalamnya terlalu vulgar untuk jadi MV grup yang semua anggotanya masih berusia di
+                                bawah 20 tahun.
+                            </p>
+                            <p class="mainMenu__post-text">
+                                Hal-hal apa saja yang dikomentari warganet? Berikut adalah rangkuman pro dan kontra yang
+                                menyelimuti MV terbaru NewJeans, "
+                                <a class="post-text__link-in-website" href="#">Cool With You</a>
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
+    <script src="./index.js"></script>
 </body>

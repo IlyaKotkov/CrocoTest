@@ -1,7 +1,6 @@
 .page {
-    font-family: 'poppins', sans-serif;
+    font-family: 'Roboto', 'poppins', sans-serif;
     margin: 0 auto;
-    max-width: 1220px;
     background-repeat: no-repeat;
     background-color: white;
     -moz-osx-font-smoothing: grayscale;

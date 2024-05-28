@@ -1,7 +1,10 @@
 .header__choco-btn {
+    margin: 0;
+    padding: 0;
     width: 20px;
     height: 20px;
     border: none;
     margin-left: 10px;
     cursor: pointer;
+    background-color: transparent;
 }

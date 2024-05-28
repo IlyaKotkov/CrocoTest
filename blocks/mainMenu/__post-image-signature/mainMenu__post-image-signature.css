@@ -1,0 +1,13 @@
+.mainMenu__post-image-signature {
+    font-size: 12px;
+    color: gray;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    padding: 4px 10px;
+}

@@ -8,3 +8,22 @@
     text-decoration: none;
     color: black;
 }
+
+.header__navigation-element-active {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.header__navigation-element-active:hover {
+    color: #ed2126;
+}
+
+.header__navigation-element:hover {
+    color: #ed2126;
+}

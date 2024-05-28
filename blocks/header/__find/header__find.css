@@ -4,4 +4,11 @@
     width: 24px;
     height: 24px;
     padding-right: 14px;
+    background-image: url(../../../images/search.png);
+    background-repeat: no-repeat;
+}
+.header__find:hover {
+    background-image: url(../../../images/search-r.png);
+    width: 24px;
+    height: 24px;
 }
