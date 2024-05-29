@@ -1,0 +1,17 @@
+.mainMenu__share-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    background: #3b5998;
+    margin-right: 12px;
+    font-size: 12px;
+    width: 148px;
+    height: 38px;
+    color: white;
+    border-radius: 5px;
+}
+
+.mainMenu__share-button:last-child {
+    background: #1dcaff;
+}

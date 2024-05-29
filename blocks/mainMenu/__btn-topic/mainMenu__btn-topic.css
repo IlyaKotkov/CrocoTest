@@ -1,0 +1,11 @@
+.mainMenu__btn-topic {
+    text-decoration: none;
+    padding: 8px 30px;
+    background: rgba(0, 0, 0, 0);
+    color: #ed2126;
+    border-radius: 30px;
+    border: 1px solid #d3d3d3;
+    display: block;
+    font-size: 14px;
+    line-height: 1.428571429;
+}

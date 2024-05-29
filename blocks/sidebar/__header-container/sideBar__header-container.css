@@ -1,0 +1,10 @@
+.sideBar__header-container {
+    width: 100%;
+    position: relative;
+    font-family: "Roboto Slab", serif;
+    margin: 0 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    overflow: hidden;
+}

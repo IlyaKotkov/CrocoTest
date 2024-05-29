@@ -1,0 +1,20 @@
+.mainMenu__post-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+.post-text__size-text {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.89;
+}
+
+.post-text__margin-top {
+    margin-top: 30px;
+}
+
+.post-text__margin-bottom {
+    margin-top: 20px;
+}

@@ -1,3 +1,10 @@
 .mainMenu__writer-discription {
-    
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainMenu__writer-discription_size {
+    height: max-content;
 }

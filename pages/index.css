@@ -61,3 +61,38 @@
 @import url(../blocks/mainMenu/post-text/__link-in-website/post-text__link-in-website.css);
 @import url(../blocks/mainMenu/post-text/__link/post-text__link.css);
 @import url(../blocks/mainMenu/__image-container/mainMenu__image-container.css);
+@import url(../blocks/mainMenu/icon-website/icon-website.css);
+
+@import url(../blocks/mainMenu/__writer-role/mainMenu__writer-role.css);
+@import url(../blocks/mainMenu/__writer-text/mainMenu__writer-text.css);
+@import url(../blocks/mainMenu/__idnTimes-text/mainMenu__idnTimes-text.css);
+@import url(../blocks/mainMenu/__topic-container/mainMenu__topic-container.css);
+@import url(../blocks/mainMenu/__tags-header/mainMenu__tags-header.css);
+@import url(../blocks/mainMenu/__topic-tags-container/mainMenu__topic-tags-container.css);
+@import url(../blocks/mainMenu/__topic-element/mainMenu__topic-element.css);
+@import url(../blocks/mainMenu/__btn-topic/mainMenu__btn-topic.css);
+@import url(../blocks/mainMenu/__author-container/mainMenu__author-container.css);
+
+@import url(../blocks/sidebar/sideBar.css);
+@import url(../blocks/sidebar/__header-container/sideBar__header-container.css);
+@import url(../blocks/sidebar/__header/sideBar__header.css);
+@import url(../blocks/sidebar/__list-container/sideBar__list-container.css);
+@import url(../blocks/sidebar/__list-element/sideBar__list-element.css);
+@import url(../blocks/sidebar/__list-element_dot/sideBar__list-element_dot.css);
+@import url(../blocks/sidebar/__list-element_link/sideBar__list-element_link.css);
+@import url(../blocks/sidebar/__recomendation/sideBar__rekomendation.css);
+@import url(../blocks/sidebar/__popular/sideBar__popular.css);
+
+@import url(../blocks/sidebar/__menu/sideBar__menu.css);
+@import url(../blocks/sidebar/__menu-list_element/sideBar__menu-list_element.css);
+@import url(../blocks/sidebar/__menu-list/sideBar__menu-list.css);
+@import url(../blocks/sidebar/__menu-list_link/sideBar__menu-list_link.css);
+
+@import url(../blocks/sidebar/__menu-footer/sideBar__menu-footer.css);
+@import url(../blocks/sidebar/__menu-footer_links-icon/sideBar__menu-footer_links-icon.css);
+@import url(../blocks/sidebar/__menu-footer_links/sideBar__menu-footer_links.css);
+@import url(../blocks/sidebar/__menu-footer-bottom/sideBar__menu-footer-bottom.css);
+
+@import url(../blocks/icon-bar/icon-bar.css);
+@import url(../blocks/icon-bar/__socialMedia/icon-bar__socialMedia.css);
+@import url(../blocks/icon-bar/__socialMedia-container/icon-bar__socialMedia-container.css);

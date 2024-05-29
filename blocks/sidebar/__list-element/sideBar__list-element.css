@@ -1,0 +1,25 @@
+.sideBar__list-element {
+    padding-left: 25px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+    line-height: 1.428571429;
+    position: relative;
+}
+
+.sideBar__list-element:last-child {
+    border-bottom: none;
+}
+
+.sideBar__list-element::before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    bottom: 0;
+    content: "";
+    background: red;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+}

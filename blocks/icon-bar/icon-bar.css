@@ -1,0 +1,13 @@
+.icon-bar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 70px;
+    height: auto;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: all .5s ease;
+    z-index: 999;
+}

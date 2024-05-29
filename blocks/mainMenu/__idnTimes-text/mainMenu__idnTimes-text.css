@@ -1,0 +1,11 @@
+.mainMenu__idnTimes-text {
+    margin: 0;
+    display: inline-block;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    line-height: 1.89;
+    background-color: rgba(163, 163, 163, .2);
+    margin-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+.sideBar__header {
+    width: 280px;
+    font-size: 21px;
+    background: #fff;
+    padding: 0 15px;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center
+}
+
+.sideBar__header::before {
+    left: 100%;
+    transform: translateY(-50%) skew(40deg);
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    width: 100rem;
+    background: #333;
+    content: " ";
+}
+
+.sideBar__header::after {
+    right: 99%;
+    transform: translateY(-50%) skew(-40deg);
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    width: 100rem;
+    background: #333;
+    content: " ";
+}
