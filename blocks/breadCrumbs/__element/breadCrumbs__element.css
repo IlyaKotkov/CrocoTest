@@ -8,3 +8,9 @@
 .breadCrumbs__element:hover {
     color:#ed2126 ;
 }
+
+@media screen and (max-width: 710px) {
+    .breadCrumbs__element {
+        font-size: 20px;
+    }
+}

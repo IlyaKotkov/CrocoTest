@@ -4,3 +4,9 @@
     margin-bottom: 12px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 710px) {
+    .mainMenu__tags-header {
+        padding-left: 5px;
+    }
+}

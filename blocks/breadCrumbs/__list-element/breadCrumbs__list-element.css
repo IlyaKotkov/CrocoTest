@@ -1,4 +1,18 @@
-.breadCrumbds__list-container {
+.breadCrumbs__list-element {
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 710px) {
+    .breadCrumbs__list-element:last-child {
+        display: none;
+    }
+
+    .breadCrumbs__list-element:nth-child(6) {
+        display: none;
+    }
+
+    .breadCrumbs__list-element:nth-child(5) {
+       color: #ed2126;
+    }
 }

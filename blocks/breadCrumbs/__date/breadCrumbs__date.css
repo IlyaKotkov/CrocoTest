@@ -8,3 +8,12 @@
     font-size: 15px;
     margin-left: 25px;
 }
+
+@media screen and (max-width: 710px) {
+    .breadCrumbs__date {
+        position: absolute;
+        margin-right: 20px;
+        right: 0;
+        font-size: 20px;
+    }
+}

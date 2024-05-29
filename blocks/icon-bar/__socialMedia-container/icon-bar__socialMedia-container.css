@@ -39,3 +39,10 @@
     border-bottom-left-radius: 20px;
     background: #ff4343;
 }
+
+@media screen and (max-width: 710px) {
+    .icon-bar__socialMedia-container:nth-child(7) {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+    }
+}

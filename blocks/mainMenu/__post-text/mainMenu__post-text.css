@@ -18,3 +18,9 @@
 .post-text__margin-bottom {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 710px) {
+    .mainMenu__post-text {
+        padding-left: 5px;
+    }
+}

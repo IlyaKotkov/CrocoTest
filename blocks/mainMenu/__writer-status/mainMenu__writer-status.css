@@ -9,3 +9,9 @@
 .mainMenu__writer-status_size {
     font-size: 18px;
 }
+
+@media screen and (max-width: 710px) {
+    .mainMenu__writer-status {
+        font-size: 21px;
+    }
+}

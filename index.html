@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Idn times</title>
@@ -25,25 +26,123 @@
             <div class="header__container-nav">
                 <a class="header__find" href="#"></a>
                 <a class="header__link-authorize" href="#">Gabung di IDN Times</a>
+                <a class="header__link-authorize-lowsize" href="#"><img class="header__link-authorize-lowsize" alt="people icon" src="./images/profile-b.png"></a>
                 <button class="header__choco-btn"><img class="header__choco" src="./images/chocobtn.png"
                         alt="icon-chocolate-button"></button>
             </div>
         </div>
         <div class="header__navigation">
+            <div class="header__navigation-list">
+               <a class="header__navigation-element" href="#">#BERHAJI</a>
+                <a class="header__navigation-element" href="#">QUIZ<img class="header__quiz" src="./images/ribbon_quiz.svg" alt="icon-quiz"></a>
+                <a class="header__navigation-element" href="#">NEWS</a>
+                <a class="header__navigation-element" href="#">BUSINESS</a>
+                <a class="header__navigation-element" href="#">SPORT</a>
+                <a class="header__navigation-element" href="#">TECH</a>
+                <a class="header__navigation-element" href="#">HYPE</a>
+                <a class="header__navigation-element" href="#">KOREA</a>
+               <a class="header__navigation-element" href="#">LIFE</a>
+               <a class="header__navigation-element" href="#">HEALTH</a>
+                <a class="header__navigation-element" href="#">COMMUNITY</a>
+                <a href="#" class="header__navigation-element">REGIONAL &#9660;</a>
+                    <div class="header__popup-content-first">
+                        <ul class="header__popup-list-first">
+                            <p class="header__popup-name">Regional</p>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">IDN TIMES</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Jawa Barat</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Banten</a></li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Jawa Tengah</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Jogja</a> </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Jawa Timur</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Bali</a> </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Sumatera
+                                    Utara</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Sulawesi
+                                    Selatan</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Kalimantan
+                                    Timur</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Sumatera
+                                    Selatan</a>
+                            </li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">Lampung</a></li>
+                            <li class="header__popup-element"><a class="header__popup-element" href="#">NTB</a></li>
+                        </ul>
+                    </div>
+                    <a class="header__navigation-element header__navigation-element-margin" href="#">LAINNYA&#9660;</a>
+                    <div class="header__popup-content-second">
+                        <div class="header__popup-kategori">
+                            <p class="header__popup-name">Kategori</p>
+                            <ul class="header__popup-list-second">
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Tanya
+                                        Jawab</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">Automotive</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Science</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Men</a></li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Food</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Opinion</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Fiction</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Index</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">Travel</a>
+                                </li>
+                        </div>
+                        <div class="header__popup-event">
+                            <p class="header__popup-name">Event</p>
+                            <ul class="header__popup-list-second">
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#ADA100CARA</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#COZIMMOVING</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#1000ASPIRASIINDONESIAMUDA</a></li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#AKUPEREMPUAN</a></li>
+                                <li class="header__popup-element"><a class="header__popup-element" href="#">#KITAIDN</a>
+                                </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#ANTIPUASAKUOTA</a> </li>
+                                <li class="header__popup-element"><a class="header__popup-element"
+                                        href="#">#LIPUTANKHUSUS</a> </li>
+                        </div>
+                        <p class="header__popup-suggest">DOWNLOAD IDN APP SEKARANG</p>
+                        <a class="header__popup-link-download" href="#"><img class="header__popup-link-download"
+                                src="./images/app-download.png"></a>
+                        <a class="header__popup-link-download" href="#"><img class="header__popup-link-download"
+                                src="./images/itunes-download.png"></a>
+                    </div>
+            </div>
+        </div>
+        <!-- <div class="header__navigation">
             <ul class="header__navigation-list">
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">#BERHAJI</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">QUIZ<img
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">#BERHAJI</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">QUIZ<img
                             class="header__quiz" src="./images/ribbon_quiz.svg" alt="icon-quiz"></a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">NEWS</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">BUSINESS</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">SPORT</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">TECH</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">HYPE</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">KOREA</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">LIFE</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">HEALTH</a></li>
-                <li class="header__navigation-element"><a class="header__navigation-element" href="#">COMMUNITY</a></li>
-                <li class="header__navigation-element-dropDownMenuFirst">
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">NEWS</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">BUSINESS</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">SPORT</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">TECH</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">HYPE</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">KOREA</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">LIFE</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">HEALTH</a></li>
+                <li class="header__navigation-element header__navigation-element-margin"><a class="header__navigation-element" href="#">COMMUNITY</a></li>
+                <li class="header__navigation-element-dropDownMenuFirst header__navigation-element-margin">
                     <a href="#" class="header__navigation-element">REGIONAL &#9660;</a>
                     <div class="header__popup-content-first">
                         <ul class="header__popup-list-first">
@@ -76,7 +175,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="header__navigation-element-dropDownMenuSecond">
+                <li class="header__navigation-element-dropDownMenuSecond header__navigation-element-margin">
                     <a class="header__navigation-element" href="#">LAINNYA&#9660;</a>
                     <div class="header__popup-content-second">
                         <div class="header__popup-kategori">
@@ -129,6 +228,8 @@
                                 src="./images/itunes-download.png"></a>
                     </div>
                 </li>
+            </ul>
+        </div> -->
         </div>
     </header>
 
@@ -152,19 +253,12 @@
         <div class="breadCrumbs">
             <ol class="breadCrumbs__list-container">
                 <li class="breadCrumbs__list-element"><a class="breadCrumbs__element">Home</a></li>
-                <li class="breadCrumbs__list-element">
-                    <p class="breadCrumbs__arrow">&rsaquo;</p>
-                </li>
+                <li class="breadCrumbs__list-element"><p class="breadCrumbs__arrow">&rsaquo;</p> </li>
                 <li class="breadCrumbs__list-element"><a class="breadCrumbs__element">Korea</a></li>
-                <li class="breadCrumbs__list-element">
-                    <p class="breadCrumbs__arrow">&rsaquo;</p>
-                </li>
+                <li class="breadCrumbs__list-element"> <p class="breadCrumbs__arrow">&rsaquo;</p></li>
                 <li class="breadCrumbs__list-element"><a class="breadCrumbs__element">Kpop</a></li>
-                <li class="breadCrumbs__list-element">
-                    <p class="breadCrumbs__arrow">&rsaquo;</p>
-                </li>
-                <li class="breadCrumbs__list-element"><a class="breadCrumbs__element" style=" color:#ed2126 ;">Pro
-                        Kontra MV NewJeans Cool With You, Ada Scene yang Terlalu Vulgar?</a></li>
+                <li class="breadCrumbs__list-element"> <p class="breadCrumbs__arrow">&rsaquo;</p></li>
+                <li class="breadCrumbs__list-element"><a class="breadCrumbs__element" style=" color:#ed2126 ;">Pro Kontra MV NewJeans Cool With You, Ada Scene yang Terlalu Vulgar?</a></li>
             </ol>
             <p class="breadCrumbs__date" id="datetime"></p>
         </div>
@@ -418,21 +512,27 @@
                     <div class="sideBar__menu-footer">
                         <div class="sideBar__menu-footer_links">
                             FOLLOW US:
-                            <a href="#" class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_size sideBar__menu-footer_links-icon_margin">
-                                <img class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_size" alt="facebook icon" src="./images/facebook.png">
+                            <a href="#"
+                                class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_size sideBar__menu-footer_links-icon_margin">
+                                <img class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_size"
+                                    alt="facebook icon" src="./images/facebook.png">
                             </a>
-                            <a href="#" class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_size sideBar__menu-footer_links-icon_margin">
-                                <img class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_size" alt="instagram icon" src="./images/insta.png">
+                            <a href="#"
+                                class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_size sideBar__menu-footer_links-icon_margin">
+                                <img class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_size"
+                                    alt="instagram icon" src="./images/insta.png">
                             </a>
                             <a href="#" class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_margin">
-                                <img class="sideBar__menu-footer_links-icon" alt="youtube icon" src="./images/youtubeIcon.png">
+                                <img class="sideBar__menu-footer_links-icon" alt="youtube icon"
+                                    src="./images/youtubeIcon.png">
                             </a>
                             <a href="#" class="sideBar__menu-footer_links-icon sideBar__menu-footer_links-icon_margin">
-                                <img class="sideBar__menu-footer_links-icon" alt="twitter icon" src="./images/SocIcon-Twitter.png">
+                                <img class="sideBar__menu-footer_links-icon" alt="twitter icon"
+                                    src="./images/SocIcon-Twitter.png">
                             </a>
                         </div>
-    
-                        <div class="sideBar__menu-footer-bottom">  
+
+                        <div class="sideBar__menu-footer-bottom">
                             © 2024 IDN Media | All Rights Reserved
                             <br>
                             The Voice of Millennials and Gen Z
@@ -469,5 +569,6 @@
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
 </body>

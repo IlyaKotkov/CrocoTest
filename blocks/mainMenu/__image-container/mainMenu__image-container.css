@@ -2,3 +2,38 @@
     position: relative;
     height: 510px;
 }
+
+@media screen and (max-width: 765px) {
+    .mainMenu__image-container {
+        width: 565px;
+        height: 410px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .mainMenu__image-container {
+        width: 530px;
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .mainMenu__image-container {
+        width: 450px;
+        height: 290px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .mainMenu__image-container {
+        width: 425px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .mainMenu__image-container {
+        width: 400px;
+        height: 280px;
+    }
+}

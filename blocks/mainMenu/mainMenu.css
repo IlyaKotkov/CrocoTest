@@ -5,3 +5,10 @@
     display: grid;
     grid-template-columns: 765px 315px;
 }
+
+@media screen and (max-width: 1113px) {
+    .mainMenu {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -14,3 +14,19 @@
     height: 20px;
     text-decoration: none;
 }
+
+.header__link-authorize-lowsize {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 710px) {
+.header__link-authorize {
+    display: none;
+}
+
+    .header__link-authorize-lowsize {
+        display: block;
+    }
+}
