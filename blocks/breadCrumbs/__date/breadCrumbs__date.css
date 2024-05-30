@@ -17,3 +17,9 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 365px) {
+    .breadCrumbs__date {
+        margin-right: 0px;
+    }
+}

@@ -97,9 +97,6 @@
 @import url(../blocks/icon-bar/__socialMedia/icon-bar__socialMedia.css);
 @import url(../blocks/icon-bar/__socialMedia-container/icon-bar__socialMedia-container.css);
 
-@import url(../blocks/swiper/swiper-button-next.css);
-@import url(../blocks/swiper/swiper-button-prev.css);
-
 @import url(../blocks/header/__navigation-element-dropDownMenuFirst/header__navigation-element-dropDownMenuFirst.css);
 @import url(../blocks/header/__navigation-element-dropDownMenuSecond/header__navigation-element-dropDownMenuSecond.css);
 @import url(../blocks/header/__popup-footer/header__popup-footer.css);
