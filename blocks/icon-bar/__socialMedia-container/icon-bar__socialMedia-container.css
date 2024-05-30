@@ -40,9 +40,42 @@
     background: #ff4343;
 }
 
+.icon-bar__socialMedia-container:hover {
+    right: 30%;
+    width: 100px;
+    transition: all .4s;
+    background: #8b9dc3;
+}
+
+.icon-bar__socialMedia-container:hover:nth-child(2) {
+    background-color: #02a0f5;
+}
+
+.icon-bar__socialMedia-container:hover:nth-child(3) {
+    background-color: #75c3ff;
+}
+
+.icon-bar__socialMedia-container:hover:nth-child(4) {
+    background-color: #2cf576;
+}
+
+.icon-bar__socialMedia-container:hover:nth-child(5) {
+    background-color: #39c2fd;
+}
+
+.icon-bar__socialMedia-container:hover:nth-child(6) {
+    background-color: #05f005;
+}
+
+.icon-bar__socialMedia-container:hover:nth-child(7) {
+    background-color: #ff5d5d;
+}
+
+
 @media screen and (max-width: 710px) {
     .icon-bar__socialMedia-container:nth-child(7) {
         border-bottom-left-radius: 0px;
         border-top-right-radius: 20px;
+        
     }
 }

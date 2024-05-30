@@ -10,6 +10,7 @@
     height: 38px;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .mainMenu__share-button:last-child {

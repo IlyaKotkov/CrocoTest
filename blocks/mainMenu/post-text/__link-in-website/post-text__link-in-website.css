@@ -2,3 +2,7 @@
     text-decoration: none;
     color: #ed2126;
 }
+
+.post-text__link-in-website:hover {
+    filter: contrast(50%);
+}

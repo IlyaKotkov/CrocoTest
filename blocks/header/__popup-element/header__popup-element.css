@@ -1,0 +1,14 @@
+.header__popup-element {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.header__popup-element-padding {
+    padding-top: 15px;
+}
+
+.header__popup-element:hover {
+    color: #ed2126;
+  }

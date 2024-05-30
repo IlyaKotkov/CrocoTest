@@ -1,0 +1,10 @@
+.header__popup-event {
+    padding-left: 12px;
+}
+
+@media screen and (max-width: 765px) {
+    .header__popup-event {
+        padding: 0;
+        padding-top: 20px;
+    }
+  }

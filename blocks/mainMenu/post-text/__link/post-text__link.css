@@ -4,5 +4,10 @@
     margin: 10px 0;
     line-height: 20px;
     text-decoration: none;
+    cursor: pointer;
     color: #ed2126;
+}
+
+.post-text__link:hover {
+    text-decoration: underline;
 }

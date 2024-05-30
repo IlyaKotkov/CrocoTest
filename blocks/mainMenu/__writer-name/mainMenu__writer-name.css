@@ -6,3 +6,11 @@
     font-family: "Roboto", sans-serif;
     line-height: 1.428571429;
 }
+
+.mainMenu__writer-name-color {
+    color: black;
+}
+
+.mainMenu__writer-name:hover {
+    color: #ed2126;
+}

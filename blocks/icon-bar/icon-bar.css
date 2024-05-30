@@ -14,16 +14,10 @@
 
 @media screen and (max-width: 710px) {
     .icon-bar {
-        position: fixed;
-        display: flex;
         flex-wrap: nowrap;
-        justify-content: flex-end;
         width: 400px;
         height: 150px;
         top: 100%;
        bottom: 0;
-        transform: translateY(-50%);
-        transition: all .5s ease;
-        z-index: 999
     }
 }

@@ -2,3 +2,19 @@
     width: 135px;
     height: 40px;
 }
+
+.header__popup-link-download-margin {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 765px) {
+    .header__popup-link-download {
+        width: 270px;
+        height: 80px
+    }
+
+    .header__popup-link-download-margin {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+  }
